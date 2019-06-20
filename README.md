@@ -1,2 +1,4 @@
 # bavaria-control
-An esp8266 webserver to control my bavaria AC (and show room temperature)
+This esp8266 project controls my bavaria AC and additionally measures and provides the current room temperature.
+
+The AC can be controlled over a REST api hosted on the chip itself.
