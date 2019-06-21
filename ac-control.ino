@@ -6,9 +6,9 @@
 #include <OneWire.h>
 
 // pin where the temp sensor's oneWire connects
-const int DATA_PIN = 5;
+const int DATA_PIN = 4;
 // pin that toggle the IR LED
-const int IR_LED = 4;
+const int IR_LED = 5;
 
 OneWire oneWire(DATA_PIN);
 DallasTemperature sensor(&oneWire);
