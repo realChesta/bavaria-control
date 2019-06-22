@@ -105,7 +105,7 @@ void handle404() {
 float getTemperature() {
     sensor.requestTemperatures();
     float tempC = sensor.getTempCByIndex(0);
-    tempC -= 5;
+    tempC -= 3;
     return tempC;
 }
 
