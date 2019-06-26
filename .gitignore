@@ -1,0 +1,10 @@
+.metadata/
+bin/
+target/
+src-gen/
+xtend-gen/
+.vscode
+.factorypath
+
+.settings/
+openhab/**/src/main/history/
